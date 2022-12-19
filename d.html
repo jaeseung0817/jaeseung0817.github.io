@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+    .clear{
+    clear:both;
+    }
+    header{
+      width: 1650px;
+      height: 70px;
+      margin: 0 auto;
+    }
+    #navigation{
+      text-align: right;
+      margin-top: 0px;
+      border-bottom: solid 2px #aaaaaa;
+      padding: 3px 0 0 0;
+    }
+    #navigation li:hover{
+    border-bottom: 3px solid gray;
+    }
+    #logo{
+      float: left;
+    }
+    #menus{
+      float: right;
+    }
+    #main_menu{
+      margin-top: 20px;
+      font-family: '맑은고딕';
+      font-weight: 100;
+      font-size: 13px;
+      color: black;
+      padding: 0 10px 5px 0;
+      list-style-type: none;
+    }
+    #main_menu li{
+    display: inline;
+    margin-left: 10px;
+    }
+    #main_menu li a{
+    color: #000;
+    text-decoration: none;
+    }
+    #sub_menu{
+      width: 200px;
+      float: left;
+      margin-top: 150px;
+      padding: 120px 0 0 100px;
+    }
+    #sub_menu a{
+      color: #fff;
+      list-style-type: none;
+      text-decoration: none;
+    }
+    #sub_menu li:hover{
+    border-bottom: 2px solid yellow;
+    }
+    #sub_menu h3{
+      font-size: 18px;
+      color: #fff;
+      text-align: center;
+      padding: 0 70px 0 0;
+    }
+    #sub_menu li{
+      text-decoration: none;
+      padding: 10px;
+      border-bottom: solid 2px #ccc;
+      color: #fff;
+      list-style-type: none;
+    }
+    #main_contents{
+      width: 900px;
+      float: right;
+      padding: 120px 350px 0 0;
+      margin: 0 auto;
+    }
+    #main_contents h3{
+      color: #fff;
+    font-size: 22px;
+    padding-bottom: 8px;
+    border-bottom: solid 1px #ccc;
+    }
+    #main_contents p{
+      width: 650px;
+      float: right;
+      color: #fff;
+      margin-left: 30px;
+      line-height: 180%;
+      padding: 0 140px 0 0;
+    }
+    #main_contents #figure{
+      margin-top:60px;
+      text-align: center;
+    }
+    #main_contents #figure >img {
+    float: left;
+    padding: 30px 0 0 0;
+    align-items: center;
+    }
+    section{
+      width: 1650px;
+      height: 900px;
+      margin: 0 auto;
+      background-image:url(./img/bg0.png);
+      background-size: 100%;
+    }
+    footer{
+      width: 1650px;
+      height: 100px;
+      background-color: #000;
+      margin: 0 auto;
+    }
+    #footer_box{
+      width: 1650px;
+      height: 50px;
+      margin: 0 auto;
+
+    }
+    #footer_logo{
+      float: left;
+      margin: 20px 0 0 30px;
+     padding: 20px 0 0 0px;
+    }
+    #address{
+      float: right;
+      color: white;
+      list-style-type: none;
+      font-size: 10px;
+      padding: 30px 30px 0 0;
+    }
+    #adress li{
+      color: #fff;
+    }
+
+    </style>
+    <title></title>
+  </head>
+  <body>
+<header>
+  <div id="logo">
+    <a href="index.html"><img src="img/logo.png" alt="" width="200px"></a>
+  </div>
+  <div id="navigation">
+    <ul id="main_menu">
+<li><a href="a.html">라파엘로 산치오</a></li>
+<li><a href="b.html">레오나르도 다빈치</a></li>
+<li><a href="c.html">미켈란젤로 부오나르티</a></li>
+<li><a href="d.html">시대적 영상</a></li>
+<li><a href="e.html">시대적 음악</a></li>
+    </ul>
+  </div>
+</header>
+
+<section>
+  <nav id='sub_menu'>
+    <h3>목차</h3>
+    <ul>
+      <li><a href="d.html">르네상스?</a></li>
+      <li><a href="l.html">두 종류의 르네상스</a></li>
+    </ul>
+</nav>
+    <div id= 'main_contents'>
+      <h3>시대적 영상 - 르네상스?</h3>
+      <div id='figure'>
+        <video width="420" height="340" autoplay controls loop>
+          <source src="img/01.mp4" type="video/mp4">
+          <source src="img/01.webm" type="video/webm">
+        </video>
+      </div>
+      <p>르네상스는 14~16세기에 일어난 문화 운동으로 학문이나 예술의 부활·재생이라는 뜻을 가지고 있다.
+         신 중심의 사상과 봉건 제도로 개인의 창조성을 억압하던 중세에서 벗어나, 문화의 절정기였던 고대로 돌아가자는 운동으로,
+          문화·예술 분야뿐 아니라 정치·과학 등 사회 전반적인 영역에서 새로운 기법의 시도와 다양한 실험이 이루어졌다.</p>
+
+    </div>
+
+</section>
+
+<footer>
+  <div id="footer_box">
+    <div id="footer_logo">
+      <img src="img/logo.png" alt="" width="100px">
+    </div>
+    <ul id="address">
+  <li>경기도 안산시 단원구 1234</li>
+  <li>TEL:010-725-081 Email:park08117@naver.com</li>
+    </ul>
+  </div>
+</footer>
+  </body>
+</html>

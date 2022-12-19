@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+      .clear{
+      clear:both;
+      }
+      header{
+        width: 1650px;
+        height: 70px;
+        margin: 0 auto;
+      }
+      #navigation{
+        text-align: right;
+        margin-top: 0px;
+        border-bottom: solid 2px #aaaaaa;
+        padding: 3px 0 0 0;
+      }
+      #navigation li:hover{
+      border-bottom: 3px solid gray;
+      }
+      #logo{
+        float: left;
+      }
+      #menus{
+        float: right;
+      }
+      #main_menu{
+        margin-top: 20px;
+        font-family: '맑은고딕';
+        font-weight: 100;
+        font-size: 13px;
+        color: black;
+        padding: 0 10px 5px 0;
+        list-style-type: none;
+      }
+      #main_menu li{
+      display: inline;
+      margin-left: 10px;
+      }
+      #main_menu li a{
+      color: #000;
+      text-decoration: none;
+      }
+      #sub_menu{
+        width: 200px;
+        float: left;
+        margin-top: 150px;
+        padding: 120px 0 0 100px;
+      }
+      #sub_menu a{
+        color: #fff;
+        list-style-type: none;
+        text-decoration: none;
+      }
+      #sub_menu li:hover{
+      border-bottom: 2px solid yellow;
+      }
+      #sub_menu h3{
+        font-size: 18px;
+        color: #fff;
+        text-align: center;
+        padding: 0 70px 0 0;
+      }
+      #sub_menu li{
+        padding: 10px;
+        border-bottom: solid 2px #ccc;
+        color: #fff;
+        list-style-type: none;
+      }
+      #main_contents{
+        width: 900px;
+        float: right;
+        padding: 120px 350px 0 0;
+      }
+      #main_contents h3{
+        color: #fff;
+      font-size: 22px;
+      padding-bottom: 8px;
+      border-bottom: solid 1px #ccc;
+      }
+      #main_contents p{
+        text-align: center;
+        width: 650px;
+        color: #fff;
+        margin-left: 120px;
+        line-height: 180%;
+      }
+      #main_contents #figure{
+        margin-top:30px;
+        text-align: center;;
+      }
+      #main_contents #figure >img {
+      padding: 30px 0 0 0;
+      }
+      section{
+        width: 1650px;
+        height: 900px;
+        margin: 0 auto;
+        background-image:url(./img/bg0.png);
+        background-size: 100%;
+      }
+      footer{
+        width: 1650px;
+        height: 100px;
+        background-color: #000;
+        margin: 0 auto;
+      }
+      #footer_box{
+        width: 100%;
+        height: 50px;
+        margin: 0 auto;
+
+      }
+      #footer_logo{
+        float: left;
+        margin: 20px 0 0 30px;
+       padding: 20px 0 0 0px;
+      }
+      #address{
+        float: right;
+        color: white;
+        list-style-type: none;
+        font-size: 10px;
+        padding: 30px 30px 0 0;
+      }
+      #adress li{
+        color: #fff;
+      }
+
+    </style>
+    <title></title>
+  </head>
+  <body>
+<header>
+  <div id="logo">
+    <a href="index.html"><img src="img/logo.png" alt="" width="200px"></a>
+  </div>
+  <div id="navigation">
+    <ul id="main_menu">
+<li><a href="a.html">라파엘로 산치오</a></li>
+<li><a href="b.html">레오나르도 다빈치</a></li>
+<li><a href="c.html">미켈란젤로 부오나르티</a></li>
+<li><a href="d.html">시대적 영상</a></li>
+<li><a href="e.html">시대적 음악</a></li>
+    </ul>
+  </div>
+</header>
+
+<section>
+  <nav id='sub_menu'>
+    <h3>목차</h3>
+    <ul>
+      <li><a href="e.html">maria</a></li>
+      <li><a href="m.html">ntichi</a></li>
+    </ul>
+</nav>
+    <div id= 'main_contents'>
+      <h3>시대적 음악</h3>
+      <div id='figure'>
+        <img src="img/antichi.png" alt="" width="280px"><br>
+        <audio src="img/maria.mp3" controls autoplay loop></audio>
+      </div>
+      <p>근세 음악. 다성 음악 양식의 성악곡이 주류를 이루었다.<br> 특히 오페라, 오라트리오가 발달하였다.
+</p>
+
+    </div>
+
+</section>
+
+<footer>
+  <div id="footer_box">
+    <div id="footer_logo">
+      <img src="img/logo.png" alt="" width="100px">
+    </div>
+    <ul id="address">
+  <li>경기도 안산시 단원구 1234</li>
+  <li>TEL:010-725-081 Email:park08117@naver.com</li>
+    </ul>
+  </div>
+</footer>
+  </body>
+</html>
